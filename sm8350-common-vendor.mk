@@ -165,6 +165,9 @@ PRODUCT_PACKAGES += \
     libOpenCL \
     libadreno_utils \
     libc2d30_bltlib \
+    libcapiv2svacnn \
+    libcapiv2svarnn \
+    libcapiv2vop \
     libcdsprpc \
     libcheckpid \
     libconfigdb \
