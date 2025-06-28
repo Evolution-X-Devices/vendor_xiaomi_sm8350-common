@@ -309,7 +309,6 @@ PRODUCT_PACKAGES += \
     libQSEEComAPI \
     libQTEEConnector_vendor \
     libQnnHtpAltPrepStub \
-    libQnnHtpStub \
     libadsp_default_listener \
     libadsprpc \
     libaoa \
