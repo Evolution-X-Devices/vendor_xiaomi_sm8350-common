@@ -3856,7 +3856,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-
 cc_prebuilt_library_shared {
     name: "libgcs-calwrapper",
     owner: "xiaomi",
@@ -13037,6 +13036,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libwfdservice.so",
             ],
             shared_libs: [
+                "libaudioclient_shim",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -15679,6 +15679,7 @@ cc_prebuilt_binary {
                 "proprietary/system_ext/bin/wfdservice64",
             ],
             shared_libs: [
+                "libwfdservice_shim",
                 "liblog",
                 "libutils",
                 "libcutils",
