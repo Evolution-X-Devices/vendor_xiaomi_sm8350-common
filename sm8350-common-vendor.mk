@@ -101,6 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
@@ -296,6 +297,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
+    vendor.xiaomi.hardware.citsensorservice@1.1-impl \
     jcos_nq_client \
     lib-imscommon \
     lib-imsdpl \
@@ -505,6 +507,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
+    vendor.xiaomi.hardware.citsensorservice@1.0 \
+    vendor.xiaomi.hardware.citsensorservice@1.1 \
     com.qualcomm.qti.dpm.api@1.0 \
     com.qualcomm.qti.wifidisplayhal@1.0 \
     lib-imsvideocodec \
@@ -596,6 +600,7 @@ PRODUCT_PACKAGES += \
     vendor.dolby.hardware.dms.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss@4.0-service.xml \
+    vendor.xiaomi.hardware.citsensorservice@1.1-service.xml \
     vendor.xiaomi.hardware.misys@1.0.xml \
     vendor.xiaomi.hardware.misys@2.0.xml \
     vendor.xiaomi.hardware.misys@3.0.xml \
@@ -623,6 +628,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.soter@1.0-service \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.secure_element@1.2-service \
+    vendor.xiaomi.hardware.citsensorservice@1.1-service \
     vendor.xiaomi.hardware.misys@1.0-service \
     vendor.xiaomi.hardware.misys@2.0-service \
     vendor.xiaomi.hardware.misys@3.0-service \
