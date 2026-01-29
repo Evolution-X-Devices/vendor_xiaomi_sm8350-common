@@ -13817,6 +13817,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.media.omx@1.0",
                 "dolbycodec_shim",
                 "libbase",
+                "libbase_shim",
                 "libcodec2",
                 "libcodec2_vndk_sp",
                 "libcutils",
